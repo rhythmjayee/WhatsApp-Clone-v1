@@ -1,11 +1,19 @@
 import React from 'react';
+import DonutLargeIcon from '@material-ui/icons/DonutLargeRounded';
 import './Sidebar.css';
+import {Avatar, IconButton } from '@material-ui/core';
 
 function Sidebar() {
     return (
         <div
         className="sidebar">
-            Slidebar
+            <div className="sidebar__header">
+                <div className="sidebar__headerRight">
+                <IconButton>
+                  <DonutLargeIcon/>
+                </IconButton>  
+                </div>
+            </div>
         </div>
     )
 }
