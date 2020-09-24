@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border-right: 1px solid lightgray;
+    border-right: 1px solid #f6f6f6;
     min-width: 30vw;
 }
 
