@@ -27,7 +27,7 @@ app.use(cors());
 //     next();
 // });
 
-const connection_url='mongodb+srv://admin:test123@cluster0.xff4q.mongodb.net/whatsDB?retryWrites=true&w=majority';
+const connection_url='';
 
 mongoose.connect(connection_url,{
     useCreateIndex:true,
